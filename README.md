@@ -1,4 +1,3 @@
-Here's a detailed explanation of each component of the Hospital Management System architecture, which you can include before the tree diagram:
 
 ### Detailed Explanation of System Components
 
@@ -30,5 +29,31 @@ Here's a detailed explanation of each component of the Hospital Management Syste
        - **Patient Table**: Contains details about each patient.
        - **Staff Table**: Stores information about hospital staff members.
        - **Appointment Table**: Tracks all scheduled appointments.
+         Hospital Management System
+│
+├── User Interface (UI)
+│   ├── JSP Pages
+│   ├── HTML/CSS
+│   └── JavaScript
+│
+├── Controller Layer
+│   ├── Servlets
+│   └── Request Handlers
+│
+├── Business Logic Layer
+│   ├── Patient Management
+│   ├── Appointment Scheduling
+│   └── Billing System
+│
+├── Data Access Layer
+│   ├── DAO Classes
+│   └── Repository Interfaces
+│
+└── Database
+    └── MySQL
+        ├── Patient Table
+        ├── Staff Table
+        └── Appointment Table
 
-This structure ensures clear organization, scalability, and maintainability of the system. Once you have this explanation ready, you can follow it with the architecture tree diagram for a comprehensive overview.
+      
+       

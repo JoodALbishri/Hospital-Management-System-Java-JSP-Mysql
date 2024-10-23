@@ -35,7 +35,6 @@
 
 
 
-
 ├── User Interface (UI)
 │   ├── JSP Pages
 │   ├── HTML/CSS

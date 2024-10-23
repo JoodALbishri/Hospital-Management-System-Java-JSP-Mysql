@@ -30,7 +30,12 @@
        - **Staff Table**: Stores information about hospital staff members.
        - **Appointment Table**: Tracks all scheduled appointments.
          Hospital Management System
-│
+
+
+
+
+
+
 ├── User Interface (UI)
 │   ├── JSP Pages
 │   ├── HTML/CSS

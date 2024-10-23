@@ -33,29 +33,31 @@
 
 
 
+
 Hospital Management System
 │
 ├── User Interface (UI)
-│   ├── JSP Pages
-│   ├── HTML/CSS
-│   └── JavaScript
+│   ├── JSP Pages: Frontend for user interactions.
+│   ├── HTML/CSS: Layout and design.
+│   └── JavaScript: Client-side interactivity.
 │
 ├── Controller Layer
-│   ├── Servlets
-│   └── Request Handlers
+│   ├── Servlets: Handle user requests and responses.
+│   └── Request Handlers: Route requests to appropriate business logic.
 │
 ├── Business Logic Layer
-│   ├── Patient Management
-│   ├── Appointment Scheduling
-│   └── Billing System
+│   ├── Patient Management: Manage patient data.
+│   ├── Appointment Scheduling: Handle appointment logistics.
+│   └── Billing System: Process financial transactions.
 │
 ├── Data Access Layer
-│   ├── DAO Classes
-│   └── Repository Interfaces
+│   ├── DAO Classes: CRUD operations with the database.
+│   └── Repository Interfaces: Define data access methods.
 │
 └── Database
-    └── MySQL
+    └── MySQL: Stores persistent data, including:
         ├── Patient Table
         ├── Staff Table
         └── Appointment Table
+
 

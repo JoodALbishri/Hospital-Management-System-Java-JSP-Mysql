@@ -59,5 +59,3 @@ Hospital Management System
         ├── Staff Table
         └── Appointment Table
 
-      
-       

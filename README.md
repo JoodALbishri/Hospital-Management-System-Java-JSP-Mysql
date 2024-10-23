@@ -26,6 +26,25 @@ I cannot access the GitHub repository directly due to restrictions, but I can st
 
 ### 5. **Security and Authentication**
    - **Technology**: Java security mechanisms, HTTP session management
+   - Hospital-Management-System/
+│
+├── src/
+│   ├── com/
+│   │   └── hospital/
+│   │       ├── controller/
+│   │       ├── dao/
+│   │       ├── model/
+│   │       └── service/
+│
+├── WebContent/
+│   ├── WEB-INF/
+│   │   └── web.xml
+│   └── jsp/
+│
+├── lib/
+├── sql/
+└── build.xml
+
    - **Components**: Role-based access control (e.g., admin, doctors, patients) to restrict system functionality based on user roles.
    - **Functionality**: Validates users and protects sensitive data, ensuring only authorized personnel can perform critical operations.
 
